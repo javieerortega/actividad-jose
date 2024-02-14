@@ -1,0 +1,244 @@
+	 .banner {
+            color: #fff; 
+            padding: 10px; 
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        
+        .logo {
+            max-width: 100px; 
+        }
+
+
+        .titulo {
+            font-size: 24px; 
+            margin-right: 20px; 
+            color: black;
+            font-family: Tahoma, sans-serif;
+        }
+
+
+        .enlaces {
+            display: flex;
+            gap: 20px;
+
+        }
+
+        .enlace {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-family: Tahoma, sans-serif;
+
+        }
+        .imagen-bajo-banner {
+        	width: 100%;
+        	height: 350px;
+        }
+        .TituCuerpo{
+        	text-align: center;
+        	margin-top: 50px;
+        	font-family: Tahoma, sans-serif;
+        }
+		.contenedor-gifs {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 80px;
+            margin-left: 25%; 
+            margin-right: 25%;
+        }
+
+
+        .gif-container {
+            text-align: center; 
+            text-decoration: none;
+
+        }
+
+
+        .gif {
+            width: 80px; 
+            display: block;
+            align-items: center;
+        }
+
+
+        .texto {
+            
+            font-weight: bold; 
+            text-align: left;
+            font-family: Tahoma, sans-serif;
+            margin-top: 25px;
+        }
+        .arti1{
+        	text-align: center;
+        	
+        }
+
+.formulario-contacto {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.boton-enviar {
+    text-align: center;
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.footer {
+  background-color: black;
+  color: whitesmoke;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 70px;
+}
+
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.footer-logo img {
+  max-width: 100px;
+  background-color: white;
+  border-radius: 50px;
+}
+.Descrip{
+    font-family: Tahoma, sans-serif;
+    margin-left: 40px;
+    padding: 8px;
+
+}
+
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.footer-links a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.footer-contact p {
+  margin: 0;
+}
+
+
+.footer-social p {
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.footer-social a {
+  margin-right: 10px;
+}
+
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 12px;
+}
+.logosocial{
+    width: 25px;
+    height: 25px;
+}
+
+        .person-img {
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .celdas{
+        border: 2px solid #fff;
+        }
+
+
+        .person-name {
+            font-size: 15px;
+            font-family: Tahoma, sans-serif;
+            padding: 15px;
+
+
+
+        }
+        .persona{
+            background-color: lightgrey;
+            border-collapse: collapse;
+            height: 450px;
+            width: 80%;
+            align-items: center;
+            text-align: center;
+            margin-left: 100px;
+        }
+        .Tienda{
+            background-color: lightgrey;
+            border-collapse: collapse;
+            height: 450px;
+            width: 80%;
+            align-items: center;
+            text-align: center;
+            margin-left: 100px;
+        }
+        .productos{
+            border: 2px solid #fff;
+
+        }
+        .product-img{
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            background-color: orange;
+        }
